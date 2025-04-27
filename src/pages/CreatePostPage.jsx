@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 const PostPage = () => {
   const [posts, setPosts] = useState([
-    { id: 1, user: "Alice", content: "This is Alice's first post!" },
-    { id: 2, user: "Bob", content: "Bob here! Happy to be part of this platform." },
+    { id: 1, user: "meet", content: "This is meet's first post!" },
+    { id: 2, user: "anish", content: "anish here! Happy to be part of this platform." },
   ]);
   
   const [newPost, setNewPost] = useState("");
