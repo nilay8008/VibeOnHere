@@ -4,56 +4,56 @@ const dummyPosts = [
   {
     id: 1,
     user: 'Nilay Patel',
-    avatar: 'https://via.placeholder.com/50',
-    text: 'Loving the new features! Excited for what’s next 🚀',
-    image: 'https://via.placeholder.com/500x300',
+    avatar: './abc.png',
+    text: 'what a view !!',
+    image: './w1.jpg',
     time: '2 hours ago',
   },
   {
     id: 2,
     user: 'Raj Purohit',
-    avatar: 'https://via.placeholder.com/50',
-    text: 'Had an amazing day exploring the city!',
-    image: 'https://via.placeholder.com/500x300',
+    avatar: './abc2.jpeg',
+    text: 'Had an amazing day exploring forest!',
+    image: './w2.avif',
     time: '4 hours ago',
   },
   {
     id: 2,
     user: 'Rahul',
-    avatar: 'https://via.placeholder.com/50',
+    avatar: './abc3.jpeg',
     text: 'good day',
-    image: 'https://via.placeholder.com/500x300',
+    image: './w3.jpg',
     time: '5 hours ago',
   },
   {
     id: 2,
     user:  'meet patel' ,
-    avatar: 'https://via.placeholder.com/50',
+    avatar: './abc4.jpg',
     text: 'WHAT A WEEKEND',
-    image: 'https://via.placeholder.com/500x300',
+    image: './w4.avif',
     time: '6 hours ago',
   },
   {
     id: 2,
     user: 'Sudhanshu',
-    avatar: 'https://via.placeholder.com/50',
+    avatar: 'abc5.jpg',
     text: 'eXPLORING WEEKEND',
-    image: 'https://via.placeholder.com/500x300',
+    image: './w5.jpeg',
     time: '10 hours ago',
   },
   {
     id: 2,
     user: 'Anish ',
-    avatar: 'https://via.placeholder.com/50',
+    avatar: 'abc6.jpg',
     text: 'Love to tracking on weekends',
-    image: 'https://via.placeholder.com/500x300',
+    image: './w6.jpeg',
     time: '8 hours ago',
   },
 ];
 
 const NewsFeedPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="p-6 bg-gradient-to-b from-green-400 to-blue-400">
       <div className="max-w-2xl mx-auto space-y-6">
         {dummyPosts.map((post) => (
           <div key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden">

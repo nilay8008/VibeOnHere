@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProfilePage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="p-6 bg-gradient-to-b from-green-400 to-blue-400">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-8">
         
         {/* Profile Header */}

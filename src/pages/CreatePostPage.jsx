@@ -22,7 +22,7 @@ const PostPage = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen p-4">
+    <div className="flex flex-col h-screen p-4 p-6 bg-gradient-to-b from-green-400 to-blue-400">
       <h1 className="text-3xl font-bold mb-4">Post Page</h1>
 
       {/* Post Form */}

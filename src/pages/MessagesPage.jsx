@@ -22,9 +22,9 @@
       };
     
       return (
-        <div className="flex h-screen">
+        <div className="flex h-screen ">
           {/* Sidebar */}
-          <div className="w-1/4 bg-gray-100 p-4 overflow-y-auto">
+          <div className="w-1/4 bg-gray-100 p-4 overflow-y-auto p-6 bg-gradient-to-b from-green-400 to-blue-400">
             <h2 className="text-2xl font-bold mb-4">Chats</h2>
             {conversations.map((conv) => (
               <div
@@ -40,7 +40,7 @@
           {/* Chat Window */}
           <div className="flex flex-col w-3/4">
             {/* Header */}
-            <div className="bg-blue-500 text-white p-4 text-lg font-bold">
+            <div className="bg-blue-500 text-white p-4 text-lg font-bold ">
               Chat with {selectedConversation.name}
             </div>
     
